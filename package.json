@@ -10,6 +10,7 @@
     "start-server": "node src/app.js",
     "dev": "nodemon src/app.js",
     "prod": "NODE_ENV=production nodemon src/app.js"
+
   },
   "author": "Mohd Belal",
   "license": "ISC",
@@ -22,8 +23,5 @@
     "mongoose": "^8.5.1",
     "multer": "^1.4.5-lts.1",
     "socket.io": "^4.7.5"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.4"
   }
 }
